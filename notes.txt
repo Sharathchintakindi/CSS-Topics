@@ -1,0 +1,60 @@
+
+Intro :
+
+CSS stands for Cascading Style Sheet.
+CSS is used to design HTML tags.
+CSS is a widely used language on the web.
+HTML, CSS and JavaScript are used for web designing. It helps the web designers to apply style on HTML tags.
+
+Types of CSS
+Three types:
+1.Inline Stylesheet: we write the code inside the tag which we want to change the style
+        	Ex: <h1 style=”color:Red;”> Heading</H1>
+2.Style stylesheet: we will write the code in the metadata that with the <style> tag
+        	Ex: <style> H1{ color:red;} </style>
+3.External Style sheet: In this we write create a new doc for css and there we will write the code
+We will link the html file with the css file to apply the style
+<link rel=”stylesheet” href=”url”>
+
+Css Comments
+
+/* data to tb commented */
+
+Selectors:
+
+The element selector
+The universal selector
+Id selector
+Class selectors
+
+The Element selector
+Element selectors are used to provide styling to a selected HTML document.
+Element  {  
+    property: value  
+}  
+
+p{
+  background-color:pink;
+}
+
+The universal selector
+We use an asterisk (*) sign to define the universal selector in the universal selector. It is used to select all the Html documents.
+
+*{
+      property: value  
+
+}
+
+ Id selector
+It is the most commonly used operator in CSS. It is used to set the style to a given id. It is denoted by (#).
+
+#id {  
+    property: value;  
+} 
+
+The Class Selector
+The class selector is used to select elements that have some class attributes. We use a (.) character with a specific class to select an element.
+
+.class{
+  property: value
+}
